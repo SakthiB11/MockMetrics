@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from config_manager import load_config
+from config_manager import load_config, get_target_percentile
 
 from datetime import datetime, timedelta
 

@@ -11,6 +11,7 @@ from pages.analytics_hub import show_analytics
 from pages.mock_analysis import show_mock_analysis
 from pages.delete_test import show_delete_test
 from pages.profile import show_profile
+from pages.edit_test import show_edit_test
 
 from config_manager import config_exists, load_config
 from pages.setup_wizard import show_setup_wizard
@@ -75,6 +76,7 @@ with st.sidebar:
     "🏠 Dashboard",
     "➕ Add Test",
     "📚 Add Subject",
+    "✏️ Edit Test",
     "🔍 Mock Analysis",
     "📊 Analytics Hub",
     "❌ Delete Test",
@@ -91,6 +93,11 @@ if menu == "➕ Add Test":
 #ADD SUBJECT
 elif menu == "📚 Add Subject":
     show_add_subject()
+
+elif menu == "✏️ Edit Test":
+    show_edit_test(predict_rank)
+
+    
 #DASHBOARD
 elif menu == "🏠 Dashboard":
     show_dashboard(predict_rank)
