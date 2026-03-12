@@ -1,0 +1,21 @@
+# sensitive files
+.env
+config.json
+
+# database
+*.db
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
