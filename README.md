@@ -54,8 +54,10 @@ exam-ace/
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/exam-ace.git
-cd exam-ace
+git clone https://github.com/SathiB11/MockMetrics
+.git
+cd MockMetrics
+
 ```
 
 ### 3. (Recommended) Create a virtual environment
