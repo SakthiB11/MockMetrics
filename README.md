@@ -1,4 +1,4 @@
-# 🎯 Exam Ace Analytics
+# 🎯 MockMetrics
 
 A personal exam performance tracker built with **Streamlit**. Designed for competitive exam aspirants who want to track mock test scores, analyze subject-wise performance, and monitor their journey toward a target rank.
 
@@ -22,7 +22,7 @@ A personal exam performance tracker built with **Streamlit**. Designed for compe
 ## 🗂️ Project Structure
 
 ```
-exam-ace/
+MockMetrics/
 ├── app.py                  # Main entry point
 ├── database.py             # SQLAlchemy engine & session management
 ├── models.py               # ORM models: Test, Subject, Question
@@ -54,9 +54,8 @@ exam-ace/
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/SathiB11/MockMetrics.git
+git clone https://github.com/SakthiB11/MockMetrics.git
 cd MockMetrics
-
 ```
 
 ### 3. (Recommended) Create a virtual environment
