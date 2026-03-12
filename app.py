@@ -22,7 +22,10 @@ if not config_exists():
     st.stop()
 
 # load config for rest of app
-config = load_config()
+if config_exists():
+    config = load_config()
+else:
+    st.stop()
 
 Base.metadata.create_all(engine)
 
