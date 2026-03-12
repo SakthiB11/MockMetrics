@@ -54,8 +54,7 @@ exam-ace/
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/SathiB11/MockMetrics
-.git
+git clone https://github.com/SathiB11/MockMetrics.git
 cd MockMetrics
 
 ```
